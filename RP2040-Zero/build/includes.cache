@@ -1,21 +1,21 @@
 [
   {
-    "added_include_path": "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040"
+    "added_include_path": "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040"
   },
   {
-    "added_include_path": "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero"
+    "added_include_path": "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero"
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\RP2040-Zero.ino.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\RP2040-Zero.ino.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\RP2040-Zero.ino.cpp.d"
+      "source_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -33,20 +33,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -63,11 +61,11 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\RP2040-Zero.ino.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -75,19 +73,19 @@
     "missing_include_h": "Wire.h"
   },
   {
-    "added_include_path": "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src"
+    "added_include_path": "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src"
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\RP2040-Zero.ino.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\RP2040-Zero.ino.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\RP2040-Zero.ino.cpp.d"
+      "source_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -105,20 +103,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -135,12 +131,12 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\RP2040-Zero.ino.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -148,19 +144,19 @@
     "missing_include_h": "AccelStepper.h"
   },
   {
-    "added_include_path": "C:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src"
+    "added_include_path": "/Users/klausmichalsky/Arduino/libraries/AccelStepper/src"
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\RP2040-Zero.ino.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\RP2040-Zero.ino.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\RP2040-Zero.ino.cpp.d"
+      "source_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -178,20 +174,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -208,13 +202,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\RP2040-Zero.ino.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -223,15 +217,15 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\Z_Axis.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\Z_Axis.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\Z_Axis.cpp.d"
+      "source_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/command.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/command.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/command.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -249,20 +243,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -279,13 +271,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\Z_Axis.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/command.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -294,15 +286,15 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\command.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\command.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\command.cpp.d"
+      "source_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/communication.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/communication.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/communication.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -320,20 +312,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -350,13 +340,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\command.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/communication.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -365,15 +355,15 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\communication.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\communication.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\communication.cpp.d"
+      "source_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/core.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/core.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/core.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -391,20 +381,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -421,13 +409,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\communication.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/core.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -436,15 +424,15 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\core.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\core.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\core.cpp.d"
+      "source_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/homing.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/homing.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/homing.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -462,20 +450,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -492,13 +478,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\core.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/homing.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -507,15 +493,15 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\homing.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\homing.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\homing.cpp.d"
+      "source_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/motors.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/motors.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/motors.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -533,20 +519,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -563,13 +547,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\homing.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/motors.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -578,15 +562,15 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\motors.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\motors.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\motors.cpp.d"
+      "source_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/sensors.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/sensors.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/sensors.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -604,20 +588,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -634,13 +616,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\motors.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/sensors.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -649,15 +631,15 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\sensors.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\sensors.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\sensors.cpp.d"
+      "source_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/utils.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/utils.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/utils.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -675,20 +657,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -705,13 +685,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\sensors.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/utils.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -720,15 +700,15 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\utils.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\utils.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\utils.cpp.d"
+      "source_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/xy_plane.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/xy_plane.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/xy_plane.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -746,20 +726,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -776,13 +754,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\utils.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/xy_plane.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -791,15 +769,15 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\xy_plane.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\xy_plane.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\xy_plane.cpp.d"
+      "source_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/z_Axis.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/z_Axis.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/z_Axis.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -817,20 +795,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -847,13 +823,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\sketch\\xy_plane.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/z_Axis.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -862,15 +838,15 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src\\Wire.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\libraries\\Wire\\Wire.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\libraries\\Wire\\Wire.cpp.d"
+      "source_path": "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src/Wire.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/libraries/Wire/Wire.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/libraries/Wire/Wire.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -888,20 +864,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -918,13 +892,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src\\Wire.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src/Wire.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -933,15 +907,15 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src\\AccelStepper.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\libraries\\AccelStepper\\AccelStepper.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\libraries\\AccelStepper\\AccelStepper.cpp.d"
+      "source_path": "/Users/klausmichalsky/Arduino/libraries/AccelStepper/src/AccelStepper.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/libraries/AccelStepper/AccelStepper.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/libraries/AccelStepper/AccelStepper.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -959,20 +933,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -989,13 +961,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src\\AccelStepper.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Arduino/libraries/AccelStepper/src/AccelStepper.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },
@@ -1004,15 +976,15 @@
   },
   {
     "compile": {
-      "source_path": "C:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src\\MultiStepper.cpp",
-      "object_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\libraries\\AccelStepper\\MultiStepper.cpp.o",
-      "depfile_path": "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build\\libraries\\AccelStepper\\MultiStepper.cpp.d"
+      "source_path": "/Users/klausmichalsky/Arduino/libraries/AccelStepper/src/MultiStepper.cpp",
+      "object_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/libraries/AccelStepper/MultiStepper.cpp.o",
+      "depfile_path": "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/libraries/AccelStepper/MultiStepper.cpp.d"
     },
     "compile_task": {
       "args": [
-        "C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/klausmichalsky/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\build/core",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -1030,20 +1002,18 @@
         "-DDISABLE_FS_H_WARNING=1",
         "-DARDUINO_VARIANT=\"waveshare_rp2040_zero\"",
         "-DPICO_FLASH_SIZE_BYTES=2097152",
-        "-DFS_START=270528512",
-        "-DFS_END=270528512",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/platform_def.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/platform_def.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
         "-fno-exceptions",
-        "-iprefixC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/rp2040/platform_inc.txt",
-        "@C:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/lib/core_inc.txt",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0/include",
+        "-iprefix/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/rp2040/platform_inc.txt",
+        "@/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/lib/core_inc.txt",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -1060,13 +1030,13 @@
         "-DARDUINO_ARCH_RP2040",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\cores\\rp2040",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\variants\\waveshare_rp2040_zero",
-        "-IC:\\Users\\Klaus\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\5.6.0\\libraries\\Wire\\src",
-        "-IC:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src",
-        "C:\\Users\\Klaus\\Documents\\Arduino\\libraries\\AccelStepper\\src\\MultiStepper.cpp",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
+        "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
+        "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
+        "/Users/klausmichalsky/Arduino/libraries/AccelStepper/src/MultiStepper.cpp",
         "-o",
-        "nul"
+        "/dev/null"
       ]
     }
   },

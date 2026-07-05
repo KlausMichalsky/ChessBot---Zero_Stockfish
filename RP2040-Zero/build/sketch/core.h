@@ -1,4 +1,4 @@
-#line 1 "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\core.h"
+#line 1 "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/core.h"
 // =======================================================================
 //                          🔹 K A Y R O N 🔹
 // =======================================================================
@@ -17,12 +17,5 @@
 #include "config.h"
 #include "homing.h"
 
-extern bool dynamicAngle1;
-extern bool dynamicAngle2;
-extern float sensor1Offset;
-extern float sensor2Offset;
-
 void coreInit();
-void coreHomeAll();
-void coreHomeSingleMotor();
 void coreUpdate();

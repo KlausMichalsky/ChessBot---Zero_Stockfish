@@ -176,7 +176,7 @@ enum class MovingStateZ {
     PLACE_UP
 };
 
-// Maquina de estados para secuencia de movimiento, captura, enrroque...
+// Maquina de estados para secuencia de movimiento simple
 enum class MoveSequenceState {
     IDLE,
     MOVING_START,
@@ -186,7 +186,7 @@ enum class MoveSequenceState {
     GO_HOME
 };
 
-// Maquina de estados para secuencia de captura completa
+// Maquina de estados para secuencia de captura
 enum class CaptureSequenceState {
     IDLE,
     CAPTURE_START,

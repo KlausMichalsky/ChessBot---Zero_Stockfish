@@ -1,4 +1,4 @@
-#line 1 "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\homing.h"
+#line 1 "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/homing.h"
 // =======================================================================
 //                          🔹 K A Y R O N 🔹
 // =======================================================================
@@ -52,6 +52,9 @@ extern HomeSingleState homeSingleState;
 extern MotorID motorToHome;
 extern bool homeAllActive;
 
+extern float sensor1Offset;
+extern float sensor2Offset;
+
 void homingInitXY(HomingXY &st);
 
 void homingInitZ(HomingZ &st);
@@ -87,3 +90,7 @@ bool homingZhasError(const HomingZ &st);
 HomingStateXY homingGetStateXY(const HomingXY &st);
 
 HomingStateZ homingGetStateZ(const HomingZ &st);
+
+void homeSingleMotor();
+
+void homeAll();

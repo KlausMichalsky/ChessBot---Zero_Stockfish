@@ -1,4 +1,4 @@
-#line 1 "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\communication.cpp"
+#line 1 "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/communication.cpp"
 // =======================================================================
 //                          🔹 K A Y R O N 🔹
 // =======================================================================
@@ -27,7 +27,6 @@ void debug(const String &msg) {
 
 // INICIALIZACIÓN DE COMUNICACION UART
 // -----------------------------------------------------------------------
-
 // Si usas Serial1 para comunicacion TX/RX, descomenta esta función y comenta la siguiente
 // void communicationInit() {
 //     // USB para debug (opcional)

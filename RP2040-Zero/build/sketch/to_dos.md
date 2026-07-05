@@ -1,4 +1,4 @@
-#line 1 "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\to_dos.md"
+#line 1 "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/to_dos.md"
 # ✅ ToDos — Proyecto: **ChessBot---Zero**
 
 

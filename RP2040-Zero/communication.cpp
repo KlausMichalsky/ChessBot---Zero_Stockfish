@@ -26,7 +26,6 @@ void debug(const String &msg) {
 
 // INICIALIZACIÓN DE COMUNICACION UART
 // -----------------------------------------------------------------------
-
 // Si usas Serial1 para comunicacion TX/RX, descomenta esta función y comenta la siguiente
 // void communicationInit() {
 //     // USB para debug (opcional)

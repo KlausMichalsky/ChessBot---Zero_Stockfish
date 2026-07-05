@@ -51,6 +51,9 @@ extern HomeSingleState homeSingleState;
 extern MotorID motorToHome;
 extern bool homeAllActive;
 
+extern float sensor1Offset;
+extern float sensor2Offset;
+
 void homingInitXY(HomingXY &st);
 
 void homingInitZ(HomingZ &st);
@@ -86,3 +89,7 @@ bool homingZhasError(const HomingZ &st);
 HomingStateXY homingGetStateXY(const HomingXY &st);
 
 HomingStateZ homingGetStateZ(const HomingZ &st);
+
+void homeSingleMotor();
+
+void homeAll();

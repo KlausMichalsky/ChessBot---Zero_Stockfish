@@ -1,4 +1,4 @@
-#line 1 "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\sensors.cpp"
+#line 1 "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/sensors.cpp"
 // =======================================================================
 //                          🔹 K A Y R O N 🔹
 // =======================================================================

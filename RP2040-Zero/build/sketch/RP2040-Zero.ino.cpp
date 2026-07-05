@@ -1,4 +1,4 @@
-#line 1 "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\RP2040-Zero.ino"
+#line 1 "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/RP2040-Zero.ino"
 // =======================================================================
 //                          🔹 K A Y R O N 🔹
 // =======================================================================
@@ -27,11 +27,11 @@
 
 // SETUP
 // -----------------------------------------------------------------------
-#line 29 "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\RP2040-Zero.ino"
+#line 29 "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/RP2040-Zero.ino"
 void setup();
-#line 46 "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\RP2040-Zero.ino"
+#line 46 "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/RP2040-Zero.ino"
 void loop();
-#line 29 "C:\\Users\\Klaus\\Documents\\KAYRON\\RP2040-Zero\\RP2040-Zero.ino"
+#line 29 "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/RP2040-Zero.ino"
 void setup() {
     delay(1000);
     communicationInit();

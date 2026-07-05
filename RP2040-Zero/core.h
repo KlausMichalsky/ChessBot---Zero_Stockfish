@@ -16,12 +16,5 @@
 #include "config.h"
 #include "homing.h"
 
-extern bool dynamicAngle1;
-extern bool dynamicAngle2;
-extern float sensor1Offset;
-extern float sensor2Offset;
-
 void coreInit();
-void coreHomeAll();
-void coreHomeSingleMotor();
 void coreUpdate();
