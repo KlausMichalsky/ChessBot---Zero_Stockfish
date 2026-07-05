@@ -56,3 +56,9 @@ void coreUpdate() {
     }
     // ...otras tareas
 }
+
+void resetAll() {
+    resetXYStates();
+    resetZStates();
+    COMM.println("REINICIO COMPLETO");
+}

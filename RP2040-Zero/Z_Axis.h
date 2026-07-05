@@ -28,3 +28,4 @@ void magnetOFF();
 void startZPick();
 void startZPlace();
 void updateZ();
+void resetZStates();

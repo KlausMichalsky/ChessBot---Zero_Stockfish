@@ -131,3 +131,20 @@ void updateZ() {
             break;
     }
 }
+
+// RESET DE ESTADO DE LA MÁQUINA Z (IDLE + RESET TARGETS + RESET TIEMPOS)
+// -----------------------------------------------------------------------
+// Reinicia todas las máquinas de estado.
+// Borra todos los targets.
+// Borra todas las posiciones calculadas.
+// Borra los temporizadores.
+// Detiene los motores.
+// Deja todo listo para comenzar desde cero.
+void resetZStates() {
+    // RESET DE MÁQUINA Z
+    movingStateZ = MovingStateZ::IDLE;
+
+    // RESET DE MOTORES
+    motorDisableZ();
+    motor3.stop();
+}

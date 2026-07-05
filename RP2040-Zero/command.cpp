@@ -127,9 +127,7 @@ void processCommand(const String &cmdStr) {
         case Command::RESET:
 
             // 1. parar cualquier movimiento activo
-            stopAllMotors();      // ⬅️ IMPORTANTE (si no existe, hay que crearla)
-            cancelMoveSequence(); // ⬅️ clave si tenés planner
-            resetXYState();       // 🔥 ESTO ES CLAVE
+            resetAll(); // 🔥 ESTO ES CLAVE
 
             // 2. reset flags de homing
             motor1Homing.fault = false;

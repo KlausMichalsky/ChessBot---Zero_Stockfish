@@ -18,3 +18,4 @@
 
 void coreInit();
 void coreUpdate();
+void resetAll();

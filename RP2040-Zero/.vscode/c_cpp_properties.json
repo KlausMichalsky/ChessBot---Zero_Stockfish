@@ -65,9 +65,9 @@
         "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/variants/waveshare_rp2040_zero",
         "-I/Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/libraries/Wire/src",
         "-I/Users/klausmichalsky/Arduino/libraries/AccelStepper/src",
-        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp",
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/homing.cpp",
         "-o",
-        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/RP2040-Zero.ino.cpp.o"
+        "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/build/sketch/homing.cpp.o"
       ],
       "defines": [
         "USBD_PID=0x0003",

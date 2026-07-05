@@ -31,5 +31,4 @@ void startMoveSequence(float s1, float s2, float e1, float e2);
 void startCaptureSequence(float captureT1_, float captureT2_,
                           float finalT1_, float finalT2_);
 void updateCaptureSequence();
-void resetXYState();
-void cancelMoveSequence();
+void resetXYStates();

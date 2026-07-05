@@ -201,7 +201,7 @@ void startCaptureSequence(float captureT1_, float captureT2_, float finalT1_, fl
     moveToAngles(captureT1, captureT2);
 }
 
-// MAQUINA DE ESTADOS PARA SECUENCIA DE MOVIMIENTO COMPLETA (START → XY → Z → XY → Z)
+// MAQUINA DE ESTADOS PARA SECUENCIA DE MOVIMIENTO
 // -----------------------------------------------------------------------
 void updateMoveSequence() {
     switch (moveSeqState) {
@@ -258,6 +258,8 @@ void updateMoveSequence() {
     }
 }
 
+// MAQUINA DE ESTADOS PARA SECUENCIA DE CAPTURA
+// -----------------------------------------------------------------------
 void updateCaptureSequence() {
     switch (captureSeqState) {
         // 1. Ir a pieza enemiga
@@ -350,80 +352,82 @@ void updateCaptureSequence() {
 }
 
 // MOVIMIENTO A HOME DEL PLANO XY
-// (NO ES HOMING SOLO REGRESAR A POSICION CERO DESPUES DEL MOVIMIENTO)
+// (NO ES HOMING SOLO REGRESAR A POSICION CERO DESPUES DE SECUENCIA DE MOVIMIENTO)
 // -----------------------------------------------------------------------
 void moveToHomeXY() {
     moveToAngles(0.0f, 0.0f);
 }
 
-// DEBUG
+// DEBUG ⭕️ Borrar después de pruebas
+// // -----------------------------------------------------------------------
+// void printDebugMove(float motor1Angle, float motor2Angle) {
+//     COMM.println();
+//     COMM.println("-------- MOTOR 1 --------");
+
+//     float sensor1 = estimateSensorAngle(
+//         targetShoulderAngle,
+//         motor1Config.reduction,
+//         sensor1Offset,
+//         motor1Config.motorDirection);
+
+//     COMM.print("HomingOffset: ");
+//     COMM.println(sensor1Offset, 1);
+
+//     COMM.print("Estimated Sensor Angle: ");
+//     COMM.println(sensor1, 1);
+
+//     COMM.print("Real Sensor Angle: ");
+//     COMM.println(rawToDegrees(sensorReadRawAngle(Wire)), 1);
+
+//     COMM.println("-------- MOTOR 2 --------");
+
+//     float sensor2 = estimateSensorAngle(
+//         targetElbowAngle,
+//         motor2Config.reduction,
+//         sensor2Offset,
+//         motor2Config.motorDirection);
+
+//     COMM.print("HomingOffset: ");
+//     COMM.println(sensor2Offset, 1);
+
+//     COMM.print("Estimated Sensor Angle: ");
+//     COMM.println(round1Decimal(sensor2), 1);
+
+//     COMM.print("Real Sensor Angle: ");
+//     COMM.println(rawToDegrees(sensorReadRawAngle(Wire1)), 1);
+
+//     COMM.println();
+
+//     float errorShoulder =
+//         calculateError(targetShoulderAngle, Wire, motor1Config, sensor1Offset);
+
+//     float errorElbow =
+//         calculateError(targetElbowAngle, Wire1, motor2Config, sensor2Offset);
+
+//     COMM.print("Error1: ");
+//     COMM.println(errorShoulder, 1);
+
+//     COMM.print("Error2: ");
+//     COMM.println(errorElbow, 1);
+
+//     COMM.println();
+// }
+
+// RESET DE ESTADO DE LA MÁQUINA XY (IDLE + RESET TARGETS + RESET TIEMPOS)
 // -----------------------------------------------------------------------
-void printDebugMove(float motor1Angle, float motor2Angle) {
-    COMM.println();
-    COMM.println("-------- MOTOR 1 --------");
-
-    float sensor1 = estimateSensorAngle(
-        targetShoulderAngle,
-        motor1Config.reduction,
-        sensor1Offset,
-        motor1Config.motorDirection);
-
-    COMM.print("HomingOffset: ");
-    COMM.println(sensor1Offset, 1);
-
-    COMM.print("Estimated Sensor Angle: ");
-    COMM.println(sensor1, 1);
-
-    COMM.print("Real Sensor Angle: ");
-    COMM.println(rawToDegrees(sensorReadRawAngle(Wire)), 1);
-
-    COMM.println("-------- MOTOR 2 --------");
-
-    float sensor2 = estimateSensorAngle(
-        targetElbowAngle,
-        motor2Config.reduction,
-        sensor2Offset,
-        motor2Config.motorDirection);
-
-    COMM.print("HomingOffset: ");
-    COMM.println(sensor2Offset, 1);
-
-    COMM.print("Estimated Sensor Angle: ");
-    COMM.println(round1Decimal(sensor2), 1);
-
-    COMM.print("Real Sensor Angle: ");
-    COMM.println(rawToDegrees(sensorReadRawAngle(Wire1)), 1);
-
-    COMM.println();
-
-    float errorShoulder =
-        calculateError(targetShoulderAngle, Wire, motor1Config, sensor1Offset);
-
-    float errorElbow =
-        calculateError(targetElbowAngle, Wire1, motor2Config, sensor2Offset);
-
-    COMM.print("Error1: ");
-    COMM.println(errorShoulder, 1);
-
-    COMM.print("Error2: ");
-    COMM.println(errorElbow, 1);
-
-    COMM.println();
-}
-
-void resetXYState() {
-    // =========================
+// Reinicia todas las máquinas de estado.
+// Borra todos los targets.
+// Borra todas las posiciones calculadas.
+// Borra los temporizadores.
+// Detiene los motores.
+// Deja todo listo para comenzar desde cero.
+void resetXYStates() {
     // RESET DE MÁQUINA XY
-    // =========================
-
     movingStateXY = MovingStateXY::IDLE;
     moveSeqState = MoveSequenceState::IDLE;
     captureSeqState = CaptureSequenceState::IDLE;
 
-    // =========================
-    // RESET DE TARGETS
-    // =========================
-
+    // RESET DE TARGETS XY
     targetShoulderAngle = 0;
     targetElbowAngle = 0;
 
@@ -434,41 +438,11 @@ void resetXYState() {
     captureT1 = 0;
     captureT2 = 0;
 
-    // =========================
-    // RESET DE TIEMPOS
-    // =========================
-
+    // RESET DE TIEMPOS XY
     settleStart = 0;
 
-    // =========================
-    // OPCIONAL SEGURIDAD
-    // =========================
-
+    // RESET DE MOTORES
+    motorsDisableXY();
     motor1.stop();
     motor2.stop();
-
-    COMM.println("XY STATE RESET");
-}
-
-void cancelMoveSequence() {
-    // parar máquina de estados
-    moveSeqState = MoveSequenceState::IDLE;
-    captureSeqState = CaptureSequenceState::IDLE;
-
-    // parar XY inmediatamente
-    motor1.stop();
-    motor2.stop();
-
-    // opcional: reset targets
-    startT1 = 0;
-    startT2 = 0;
-    endT1 = 0;
-    endT2 = 0;
-    captureT1 = 0;
-    captureT2 = 0;
-
-    // opcional: reset estado XY también
-    movingStateXY = MovingStateXY::IDLE;
-
-    COMM.println("MOVE SEQUENCE CANCELED");
 }
