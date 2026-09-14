@@ -1,4 +1,4 @@
-#line 1 "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/README.md"
+#line 1 "C:\\Users\\Klaus\\Documents\\ONYX-Pro\\RP2040-Zero\\README.md"
 # ♟️ ChessBot---Zero
 
 Sistema de control para un robot de ajedrez basado en RP2040,

@@ -1,4 +1,4 @@
-#line 1 "/Users/klausmichalsky/Proyectos Mac/KAYRON/RP2040-Zero/command.h"
+#line 1 "C:\\Users\\Klaus\\Documents\\ONYX-Pro\\RP2040-Zero\\command.h"
 // =======================================================================
 //                          🔹 K A Y R O N 🔹
 // =======================================================================

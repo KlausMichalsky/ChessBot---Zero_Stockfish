@@ -54,85 +54,88 @@ float round1Decimal(float value) {
     return ((int)(value * 10 + 0.5)) / 10.0;
 }
 
-
 // CONVERSIÓN DE CASILLA → XY
 // -----------------------------------------------------------------------
 bool chessSquareToXY(const String &square, float &x, float &y) {
-  // Validar longitud que el texto tenga exactamente 2 caracteres
-  if (square.length() != 2) return false;
+    // Validar longitud que el texto tenga exactamente 2 caracteres
+    if (square.length() != 2)
+        return false;
 
-  char file = toupper(square[0]); // Columna A-H
-  char rank = square[1];          // Fila 1-8
+    char file = toupper(square[0]); // Columna A-H
+    char rank = square[1];          // Fila 1-8
 
-  // Validar fila y ángulo  
-  if (file < 'A' || file > 'H') return false;
-  if (rank < '1' || rank > '8') return false;
+    // Validar fila y ángulo
+    if (file < 'A' || file > 'H')
+        return false;
+    if (rank < '1' || rank > '8')
+        return false;
 
-  // Convertir a índices  
-  int fileIndex = file - 'A'; // 'A'->0 ... 'H'->7
-  int rankIndex = rank - '1'; // '1'->0 ... '8'->7
+    // Convertir a índices
+    int fileIndex = file - 'A'; // 'A'->0 ... 'H'->7
+    int rankIndex = rank - '1'; // '1'->0 ... '8'->7
 
-  // Convertir a coordenadas en centro de casillas  
-  x = A1_OFFSET_X + (fileIndex * SQUARE_SIZE);
-  y = A1_OFFSET_Y + (rankIndex * SQUARE_SIZE);
+    // Convertir a coordenadas en centro de casillas
+    x = A1_OFFSET_X + (fileIndex * SQUARE_SIZE);
+    y = A1_OFFSET_Y + (rankIndex * SQUARE_SIZE);
 
-  return true;
+    return true;
 }
-
 
 // -----------------------------------------------------------------------
 // CINEMÁTICA INVERSA SCARA
 // -----------------------------------------------------------------------
 bool inverseKinematics(float x, float y, float l1, float l2, float &theta1Deg, float &theta2Deg) {
-  float r2 = x * x + y * y;
-  float r = sqrtf(r2);
+    float r2 = x * x + y * y;
+    float r = sqrtf(r2);
 
-  // Validación de alcance físico
-  if (r > (l1 + l2) || r < fabsf(l1 - l2)) {
-    return false;
-  }
+    // Validación de alcance físico
+    if (r > (l1 + l2) || r < fabsf(l1 - l2)) {
+        return false;
+    }
 
-  // Ángulo del Codo (Theta 2)
-  float cos_theta2 = (l1 * l1 + l2 * l2 - r2) / (2.0f * l1 * l2);
-  if (cos_theta2 > 1.0f)  cos_theta2 = 1.0f;
-  if (cos_theta2 < -1.0f) cos_theta2 = -1.0f;
+    // Ángulo del Codo (Theta 2)
+    float cos_theta2 = (l1 * l1 + l2 * l2 - r2) / (2.0f * l1 * l2);
+    if (cos_theta2 > 1.0f)
+        cos_theta2 = 1.0f;
+    if (cos_theta2 < -1.0f)
+        cos_theta2 = -1.0f;
 
-  float theta2Rad = acosf(cos_theta2);
+    float theta2Rad = acosf(cos_theta2);
 
-  // Ángulo del Hombro (Theta 1)
-  float alpha = atan2f(y, x);
+    // Ángulo del Hombro (Theta 1)
+    float alpha = atan2f(y, x);
 
-  float cos_psi = (l1 * l1 + r2 - l2 * l2) / (2.0f * l1 * r);
-  if (cos_psi > 1.0f)  cos_psi = 1.0f;
-  if (cos_psi < -1.0f) cos_psi = -1.0f;
+    float cos_psi = (l1 * l1 + r2 - l2 * l2) / (2.0f * l1 * r);
+    if (cos_psi > 1.0f)
+        cos_psi = 1.0f;
+    if (cos_psi < -1.0f)
+        cos_psi = -1.0f;
 
-  float psi = acosf(cos_psi);
+    float psi = acosf(cos_psi);
 
-  float theta1Rad = alpha - psi;
+    float theta1Rad = alpha - psi;
 
-  // Conversión a grados
-  theta1Deg = theta1Rad * 180.0f / M_PI;
-  theta2Deg = theta2Rad * 180.0f / M_PI;
+    // Conversión a grados
+    theta1Deg = theta1Rad * 180.0f / M_PI;
+    theta2Deg = theta2Rad * 180.0f / M_PI;
 
-  return true;
+    return true;
 }
-
 
 // -----------------------------------------------------------------------
 // CASILLA -> COORDENADAS -> ÁNGULOS
 // -----------------------------------------------------------------------
 bool chessSquareToAngles(const String &square, float &theta1Deg, float &theta2Deg, float &x, float &y) {
-  if (!chessSquareToXY(square, x, y)) {
-    return false;
-  }
+    if (!chessSquareToXY(square, x, y)) {
+        return false;
+    }
 
-  if (!inverseKinematicsSCARA(x, y, LINK1, LINK2, theta1Deg, theta2Deg)) {
-    return false;
-  }
+    if (!inverseKinematics(x, y, LINK1, LINK2, theta1Deg, theta2Deg)) {
+        return false;
+    }
 
-  return true;
+    return true;
 }
-
 
 // DEBUG
 // TEST: IMPRIMIR TODAS LAS CASILLAS COMO COORDENADAS XY

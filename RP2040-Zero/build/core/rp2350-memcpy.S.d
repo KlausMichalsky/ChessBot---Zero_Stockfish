@@ -1,2 +1,2 @@
-/Users/klausmichalsky/Proyectos\ Mac/KAYRON/RP2040-Zero/build/core/rp2350-memcpy.S.o: \
- /Users/klausmichalsky/Library/Arduino15/packages/rp2040/hardware/rp2040/5.4.3/cores/rp2040/rp2350-memcpy.S
+C:\Users\Klaus\Documents\ONYX-Pro\RP2040-Zero\build\core\rp2350-memcpy.S.o: \
+ C:\Users\Klaus\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\5.6.0\cores\rp2040\rp2350-memcpy.S
