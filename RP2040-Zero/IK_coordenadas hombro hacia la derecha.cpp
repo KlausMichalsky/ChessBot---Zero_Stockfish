@@ -1,3 +1,12 @@
+// ============================================================================
+// @file scara_chess.h
+// @brief Cinemática inversa para Robot SCARA.
+//
+// Convierte coordenadas cartesianas (X, Y)
+// en milímetros y calcula los ángulos de articulación (Theta 1 y Theta 2)
+// mediante cinemática inversa.
+// ============================================================================
+
 #include <Arduino.h>
 #include <math.h>
 
